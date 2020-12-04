@@ -130,3 +130,46 @@ Split string
 print(my_string.split(" ")) # puts into a list
 print(my_string.split(", ")) # puts into list w/o comma
 ```
+
+# Conditionals and Booleans
+https://repl.it/@webdevdave/Python-Basic-Boolean#main.py
+
+use comparison operators
+```
+x = 10
+print(x == 10)
+print(x > 11)
+```
+
+use and + or
+```
+name = "Kelly"
+age = 30
+
+if name == "Kelly" and age == 30:
+  print("Yes, it's true")
+
+if name == "Kelly" or age == 35:
+  print("Got one of them right")
+```
+
+use in
+```
+years = [2015, 2016, 2017, 2018, 2019, 2020]
+year = 2015
+
+if year in years:
+  print("yes")
+```
+
+use == vs is
+```
+a = [1,2,3]
+b = [1,2,3]
+
+print(a == b)
+print(a is b) # two different places in memory
+
+use not
+print(not True)
+```
