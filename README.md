@@ -71,4 +71,11 @@ my_list.append(4)
 print(my_list)
 ```
 
+### String Operations
+
+Print length
+```
+my_string = "Hello World"
+print(len(my_string))
+```
 
