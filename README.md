@@ -1,2 +1,2 @@
-# python-basics
+# Python Basics
 The basics to get started
