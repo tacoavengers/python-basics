@@ -72,6 +72,7 @@ print(my_list)
 ```
 
 ### String Operations
+https://repl.it/@webdevdave/Python-Basic-String-Operations#main.py
 
 Length
 ```
