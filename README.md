@@ -174,6 +174,7 @@ use not
 print(not True)
 ```
 ### Loops
+https://repl.it/@webdevdave/Python-Basic-Loops
 
 for loop
 ```
