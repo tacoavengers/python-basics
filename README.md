@@ -273,3 +273,19 @@ def double(x):
 
 print(double(5))
 ```
+### User Defined Class
+```
+class MyFirstClass:
+    variable = "data"
+
+    def function(self, number):
+      print("I am in my function %d" % number)
+
+a_class = MyFirstClass()
+print(a_class.variable)
+a_class.function(2)
+
+b_class = MyFirstClass()
+print(b_class.variable)
+b_class.function(5)
+```
