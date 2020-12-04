@@ -73,9 +73,59 @@ print(my_list)
 
 ### String Operations
 
-Print length
+Length
 ```
 my_string = "Hello World"
 print(len(my_string))
 ```
 
+Index
+```
+print(my_string.index('e'))
+print(my_string.index('rld')) # substring
+```
+
+Count occurences
+```
+print(my_string.count('l')) # 3 times
+```
+
+Slice
+```
+print(my_string[:2])
+print(my_string[2:7])
+print(my_string[2:9:2]) # every 2nd letter in slice
+```
+
+Reverse
+```
+print(my_string[::-1])
+```
+
+Upper case
+```
+print(my_string.upper())
+```
+Lower case
+```
+print(my_string.lower())
+```
+
+Starts with
+```
+print(my_string.startswith("P"))
+print(my_string.startswith("H"))
+print(my_string.startswith("Hello"))
+```
+
+Ends with
+```
+print(my_string.endswith("d"))
+print(my_string.endswith("World"))
+```
+
+Split string
+```
+print(my_string.split(" ")) # puts into a list
+print(my_string.split(", ")) # puts into list w/o comma
+```
