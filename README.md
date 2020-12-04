@@ -219,3 +219,39 @@ while z < 10:
   print('z', z)
   ```
   
+### List Comprehension
+Words
+```
+sentence = "Every moment is a fresh beginning."
+words = sentence.split()
+word_lengths = []
+
+for word in words:
+  word_lengths.append(len(word))
+
+print(word_lengths)
+```
+
+list comprehension     
+find the lengh of the word for word in words     
+```
+word_lengths = [len(word) for word in words]
+print(word_lengths)
+```
+
+Numbers
+```
+numbers = [1,2,3,4,5,6,7,8,9,10]
+even_number = []
+
+for number in numbers:
+  if number % 2 == 0:
+    even_number.append(number)
+print(even_number)
+```
+
+list comprehension
+```
+even_number2 = [number for number in numbers if number % 2 == 0]
+print(even_number)
+```
