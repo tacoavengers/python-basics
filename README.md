@@ -291,3 +291,31 @@ b_class = MyFirstClass()
 print(b_class.variable)
 b_class.function(5)
 ```
+
+### Dictionary Operations
+https://repl.it/@webdevdave/Python-Basic-Dictionary-Operations#main.py
+```
+phonebook = {
+"Frank" : 121564789,
+"Sarah" : 789456123,
+"Kelly" : 456789133
+}
+
+print(phonebook)
+```
+Iterating through a dictionary name is key & number is value
+```
+for name, number in phonebook.items():
+  print("Name: %s,  Phone: %d" % (name, number))
+```
+
+Removing items from a dictionary
+```
+del phonebook["Frank"]
+```
+or POP can return the deleted value if print is used
+```
+phonebook.pop("Sarah")
+
+print(phonebook)
+```
