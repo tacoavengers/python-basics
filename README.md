@@ -256,3 +256,20 @@ list comprehension
 even_number2 = [number for number in numbers if number % 2 == 0]
 print(even_number)
 ```
+### User Defined Functions
+https://repl.it/@webdevdave/Python-Basic-User-Defined-Functions#main.py
+Greeting
+```
+def greet(name, greeting):
+  print("Hello %s %s" % (name, greeting))
+
+greet('Tom Jones', "what's up?")
+```
+
+Double function
+```
+def double(x):
+  return x * 2
+
+print(double(5))
+```
