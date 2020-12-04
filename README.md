@@ -173,3 +173,49 @@ print(a is b) # two different places in memory
 use not
 print(not True)
 ```
+### Loops
+
+for loop
+```
+for x in range(5):
+  print(x)
+ 
+print('\n') # separate outputs
+
+for x in range(1, 11):
+  print(x) # print values from 1 to 10
+
+print('\n') # separate outputs
+
+for x in range(1, 11, 2):
+    print(x) # every second value
+
+print('\n') # separate outputs
+```
+
+while
+```
+x = 0
+while x < 5:
+  print('x', x)
+  x += 1
+
+print('\n') # separate outputs
+y = 0
+while True:
+  if y == 5:
+    break
+  print('y', y)
+  y += 1
+
+print('\n') # separate outputs
+
+z = 0
+while z < 10:
+  z += 1
+  if z % 2 == 0:
+    # endless loop if z += 1 here
+    continue
+  print('z', z)
+  ```
+  
