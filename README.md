@@ -220,6 +220,7 @@ while z < 10:
   ```
   
 ### List Comprehension
+https://repl.it/@webdevdave/Python-Basic-List-Comprehension#main.py
 Words
 ```
 sentence = "Every moment is a fresh beginning."
