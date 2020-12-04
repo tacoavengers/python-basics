@@ -274,6 +274,7 @@ def double(x):
 print(double(5))
 ```
 ### User Defined Class
+https://repl.it/@webdevdave/Python-Basic-User-Defined-Classes#main.py
 ```
 class MyFirstClass:
     variable = "data"
