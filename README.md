@@ -50,3 +50,13 @@ my_string = "Humpty Dumpty"
 my_string = str(5) # making an int a string
 print(type(my_string))
 ```
+
+### Basic List
+Similar to arrays
+
+Declare a list
+```
+my_list = {1,2,3,4,5]
+print(my_list)
+```
+
