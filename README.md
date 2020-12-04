@@ -131,7 +131,7 @@ print(my_string.split(" ")) # puts into a list
 print(my_string.split(", ")) # puts into list w/o comma
 ```
 
-# Conditionals and Booleans
+### Conditionals and Booleans
 https://repl.it/@webdevdave/Python-Basic-Boolean#main.py
 
 use comparison operators
