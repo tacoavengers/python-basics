@@ -2,7 +2,7 @@
 The basics to get started
 
 ### Print
-https://repl.it/@webdevdave/Basic-Python-print#main.py
+https://repl.it/@webdevdave/Python-Basic-Print
 
 The most common use
 ```
@@ -52,11 +52,23 @@ print(type(my_string))
 ```
 
 ### Basic List
+https://repl.it/@webdevdave/Python-Basic-List#main.py
 Similar to arrays
 
 Declare a list
 ```
-my_list = {1,2,3,4,5]
+my_list = [1,2,3,4,5]
+```
+Access List
+```
+my_list = [1,2,3,4,5]
+print(my_list[0])
+```
+Add values
+```
+my_list[1,2,3]
+my_list.append(4)
 print(my_list)
 ```
+
 
