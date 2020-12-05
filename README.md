@@ -346,3 +346,24 @@ def get_count(input_str):
 get_count("there is a brown cow in the barn right now")
 # {'a': 2, 'e': 3, 'i': 3, 'o': 3, 'u': 0}
 ```
+Total count of vowels in a string
+
+- In addition to what we have above, we create another 
+variable to take in a list of the values (here list1).
+- The print sums up the individual values of list1
+```
+def get_count(input_str):
+
+    vowel_counts = {}
+    newStr = input_str
+
+    for vowel in "aeiou":
+        count = newStr.count(vowel)
+        vowel_counts[vowel] = count
+        list1 = vowel_counts.values()
+
+    print(sum(list1))
+
+get_count("there is a brown cow in the barn right now")
+# 11
+```
