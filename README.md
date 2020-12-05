@@ -70,6 +70,12 @@ my_list[1,2,3]
 my_list.append(4)
 print(my_list)
 ```
+If you want to create a list from series of numbers
+```
+digits = list(str(n))) // [ '5', '1', '2']
+
+n = 512
+```
 
 ### String Operations
 https://repl.it/@webdevdave/Python-Basic-String-Operations#main.py
