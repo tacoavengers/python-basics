@@ -327,3 +327,22 @@ phonebook.pop("Sarah")
 
 print(phonebook)
 ```
+
+### Counting the number of vowels in a string 
+- vowel_counts will be the dictionary holding the results.
+- newStr was created b/c in python strings are immutable
+- vowel_counts[vowel] is the key. count is the value
+```
+def get_count(input_str):
+    vowel_counts = {}
+    newStr = input_str
+
+    for vowel in "aeiou":
+        count = newStr.count(vowel)
+        vowel_counts[vowel] = count
+
+    print(vowel_counts)
+
+get_count("there is a brown cow in the barn right now")
+# {'a': 2, 'e': 3, 'i': 3, 'o': 3, 'u': 0}
+```
