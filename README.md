@@ -306,6 +306,11 @@ phonebook = {
 
 print(phonebook)
 ```
+
+```
+print(phonebook["Frank"]) // 121564789
+```
+
 Iterating through a dictionary name is key & number is value
 ```
 for name, number in phonebook.items():
