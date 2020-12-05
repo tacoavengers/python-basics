@@ -328,7 +328,7 @@ phonebook.pop("Sarah")
 print(phonebook)
 ```
 
-### Counting the number of vowels in a string 
+Counting the number of vowels in a string 
 - vowel_counts will be the dictionary holding the results.
 - newStr was created b/c in python strings are immutable
 - vowel_counts[vowel] is the key. count is the value
