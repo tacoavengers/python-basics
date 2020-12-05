@@ -293,7 +293,10 @@ b_class.function(5)
 ```
 
 ### Dictionary Operations
-https://repl.it/@webdevdave/Python-Basic-Dictionary-Operations#main.py
+https://repl.it/@webdevdave/Python-Basic-Dictionary-Operations#main.py    
+
+Dictionaries are used to store data values in key:value pairs.    
+A dictionary is a collection which is unordered, changeable and does not allow duplicates.    
 ```
 phonebook = {
 "Frank" : 121564789,
