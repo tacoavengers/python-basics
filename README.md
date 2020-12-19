@@ -52,6 +52,7 @@ print(type(my_string))
 ```
 
 ### Basic List
+Lists are used to store multiple items in a single variable.    
 https://repl.it/@webdevdave/Python-Basic-List#main.py
 Similar to arrays
 
