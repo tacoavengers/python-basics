@@ -326,7 +326,8 @@ print(phonebook)
 print(phonebook["Frank"]) // 121564789
 ```
 
-Iterating through a dictionary name is key & number is value
+Iterating through a dictionary name is key & number is value.    
+The items() method returns a view object. The view object contains the key-value pairs of the dictionary, as tuples in a list.
 ```
 for name, number in phonebook.items():
   print("Name: %s,  Phone: %d" % (name, number))
