@@ -182,11 +182,8 @@ use == vs is
 a = [1,2,3]
 b = [1,2,3]
 
-print(a == b)
-print(a is b) # two different places in memory
-
-use not
-print(not True)
+print(a == b) // True
+print(a is b) // False because a and b take two different places in memory
 ```
 ### Loops
 https://repl.it/@webdevdave/Python-Basic-Loops
