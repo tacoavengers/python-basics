@@ -243,7 +243,7 @@ word_lengths = []
 for word in words:
   word_lengths.append(len(word))
 
-print(word_lengths)
+print(word_lengths) // [5, 6, 2, 1, 5, 10]
 ```
 
 list comprehension     
