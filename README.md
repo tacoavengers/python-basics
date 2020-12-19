@@ -86,25 +86,31 @@ https://repl.it/@webdevdave/Python-Basic-String-Operations#main.py
 Length
 ```
 my_string = "Hello World"
-print(len(my_string))
+print(len(my_string)) // 11
 ```
 
 Index
 ```
-print(my_string.index('e'))
-print(my_string.index('rld')) # substring
+my_string = "Hello World"
+
+print(my_string.index('e')) // 1
+print(my_string.index('rld')) // a substring starting on index 8
 ```
 
 Count occurences
 ```
-print(my_string.count('l')) # 3 times
+my_string = "Hello World"
+
+print(my_string.count('l')) // 3 times
 ```
 
 Slice
 ```
-print(my_string[:2])
-print(my_string[2:7])
-print(my_string[2:9:2]) # every 2nd letter in slice
+my_string = "Hello World" 
+
+print(my_string[:2])  // He
+print(my_string[2:7]) // llo W
+print(my_string[0:9:2]) //  every 2nd letter in slice HloWr
 ```
 
 Reverse
