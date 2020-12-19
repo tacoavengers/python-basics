@@ -73,9 +73,11 @@ print(my_list)
 ```
 If you want to create a list from series of numbers
 ```
-digits = list(str(n))) // [ '5', '1', '2']
-
 n = 512
+
+digits = list(str(n)))
+
+print(digits) // [ '5', '1', '2']
 ```
 
 ### String Operations
