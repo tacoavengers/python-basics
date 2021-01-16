@@ -190,6 +190,34 @@ https://repl.it/@webdevdave/Python-Basic-Loops
 
 for loop
 ```
+def basic1(numbers):
+    
+    for i in numbers:
+        print(i)
+            
+numbers = [1,2,3,4]
+basic1(numbers)
+
+
+def basic2(numbers):
+    
+    for index, val in enumerate(numbers):
+        print(f"index{index} holds value {val}")
+            
+numbers = [1,2,3,4]
+basic2(numbers)
+
+
+def basic3(numbers):
+    
+    for i in range(len(numbers)):
+        elem = numbers[i]
+        print(f"index{i} holds element{elem}")
+            
+numbers = [1,2,3,4]
+basic3(numbers)
+
+
 for x in range(5):
   print(x)
  
